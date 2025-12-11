@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
 	if (argc < 2)
 	{
-		std::cout << "Usage: SteamGameLauncher.exe <AppID> <-D>\n";
+		std::cout << "Usage: SteamGameLauncher.exe <AppID> [-D]\n";
 		std::cout << "\tAppID = steam ID of the application\n";
 		std::cout << "\t-D = Debug flag to keep the console open\n";
 		std::cin.get();
